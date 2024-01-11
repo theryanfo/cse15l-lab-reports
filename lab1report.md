@@ -1,11 +1,7 @@
 # Lab 1 Report
 ## the cd command
-**with no arguments**
-img
-**with a path to a directory as an argument**
-img
-**with a path to a file as an argument**
-img
+![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/562cf8b5-088c-44ca-87f0-b354df432274)
+
 ## the ls command
 
 ## the cat command
