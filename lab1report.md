@@ -9,9 +9,9 @@
 ## the ls command
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/6ae93d71-6c83-4757-bbd7-1e77b9696d52)
 
-1. no argument: Working directory - 
-2. path to directory as argument: Working directory - 
-3. path to file as argument: Working directory - 
+1. no argument: Working directory - /home/lecture1; the command lists the contents of the working directory, giving the names of the 3 files and the name of the directory inside the working directory; it is not an error.
+2. path to directory as argument: Working directory - /home/lecture1; the command lists the contents of the messages directory, which includes the 4 files shown above; it is not an error.
+3. path to file as argument: Working directory - /home/lecture1; since the Hello.java file exists, the command lists Hello.java; it is not an error.
 
 ## the cat command
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/1e573646-4fe7-4315-8dce-ffbff31cce02)
