@@ -16,6 +16,6 @@
 ## the cat command
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/1e573646-4fe7-4315-8dce-ffbff31cce02)
 
-1. path to directory as argument: Working directory - 
-2. path to file as argument: Working directory - 
-3. no argument:  Working directory - 
+1. path to directory as argument: Working directory - /home/lecture1; we recieve an error because the cat command cannot read a directory.
+2. path to file as argument: Working directory - /home/lecture1; to read the jp-ja.txt file within messages, we use messages/jp-ja.txt as the argument; it is not an error.
+3. no argument:  Working directory - /home/lecture1; if cat is run with no arguments, the program reads from standard input; technically not an error.
