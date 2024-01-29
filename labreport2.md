@@ -41,6 +41,7 @@ class ChatServer {
 - The handleRequest method is called with the argument: http://localhost:4000/add-message?s=Would%20you%20lose&user=Yuji
 - The method then assigns the appropriate values to the temporary local variables 'parameters' and 'message'
 - The class field 'result', which starts off as "", then has appended the user (Yuji) and their message (Would you lose) with proper formatting
+
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/30d292d9-e095-4776-ac87-dff79eeb3218)
 - The handleRequest method is called with the argument: http://localhost:4000/add-message?s=Nah,%20I%27d%20win&user=@thehonoredone
 - The method then assigns the appropriate values to the temporary local variables 'parameters' and 'message'
