@@ -1,5 +1,7 @@
 # Lab Report 2
+
 ## The Code for ChatServer.java
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -35,8 +37,10 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+
 ```
 ## Example Results
+
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/75ba2ee4-3f87-4d8d-a9f2-fd9e5407b526)
 - The handleRequest method is called with the argument: http://localhost:4000/add-message?s=Would%20you%20lose&user=Yuji
 - The method then assigns the appropriate values to the temporary local variables 'parameters' and 'message'
@@ -46,12 +50,17 @@ class ChatServer {
 - The handleRequest method is called with the argument: http://localhost:4000/add-message?s=Nah,%20I%27d%20win&user=@thehonoredone
 - The method then assigns the appropriate values to the temporary local variables 'parameters' and 'message'
 - The class field 'result', which is currently "Yuji: Would you lose \n", then has appended the user (@thehonoredone) and their message (Nah, I'd win) with proper formatting
+
 ***
+
 ## Part 2
+
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/b295f80b-4820-4964-b8f5-563977d70ecb)
 
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/4d43659c-f0b7-45c7-a497-20c260216a90)
 
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/29dc894b-47a8-42f2-992b-7ad70a20b30c)
+
 ***
+
 In lab, one thing I learned about URL structures and web servers. I learned about how URLs can have a domain, path, query, and fragment. I was also given an idea of the java code behind a possible web server, along with some code that changes the page based on the URL's path and query.
