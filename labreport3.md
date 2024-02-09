@@ -133,18 +133,27 @@ find technical/911report/ | grep -v "chapter"
 technical/911report/
 technical/911report/preface.txt
 ```
-**grep -i**
+**grep -i** makes grep ignore case distinctions in patterns.
 ```
 //input
-
+grep -o -i "tuesday" technical/911report/*.txt
 
 //output
-
+technical/911report/chapter-1.txt:Tuesday
+technical/911report/chapter-1.txt:Tuesday
+technical/911report/chapter-1.txt:Tuesday
+technical/911report/chapter-13.2.txt:Tuesday
+technical/911report/chapter-13.2.txt:Tuesday
+technical/911report/chapter-13.4.txt:Tuesday
 ```
 ```
 //input
-
+grep -o -i "HOW" technical/government/*/*.txt | less
 
 //output
-
+technical/government/About_LSC/conference_highlights.txt:how
+technical/government/About_LSC/conference_highlights.txt:how
+technical/government/About_LSC/CONFIG_STANDARDS.txt:How
+technical/government/About_LSC/diversity_priorities.txt:How
+technical/government/About_LSC/diversity_priorities.txt:How
 ```
