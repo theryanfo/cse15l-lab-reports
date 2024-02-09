@@ -67,20 +67,25 @@ In the original version, the bug is caused when we assign `arr[i] = arr[arr.leng
 ## The 'grep' Command
 Source: https://man7.org/linux/man-pages/man1/grep.1.html
 
-**grep -r**
+**grep -o** prints only the matching part of a matching line, each on a separate line.
 ```
 //input
-
+grep -r -o "base pair" | less
 
 //output
-
+technical/biomed/1471-2105-3-18.txt:base pair
+technical/biomed/1471-2105-3-18.txt:base pair
+technical/biomed/1471-2105-3-2.txt:base pair
+technical/biomed/1471-2105-3-2.txt:base pairq
 ```
 ```
 //input
-
+grep -o "base pair" technical/plos/*.txt
 
 //output
-
+technical/plos/journal.pbio.0020190.txt:base pair
+technical/plos/journal.pbio.0020190.txt:base pair
+technical/plos/journal.pbio.0020223.txt:base pair
 ```
 **grep -c** prints the number of matching lines for each input file.
 ```
