@@ -64,3 +64,70 @@ In the original version, the bug is caused when we assign `arr[i] = arr[arr.leng
 
 ***
 # Part 2
+## The 'grep' Command
+Source: https://man7.org/linux/man-pages/man1/grep.1.html
+**grep -r**
+```
+//input
+
+
+//output
+
+```
+```
+//input
+
+
+//output
+
+```
+**grep -c** print the number of matching lines for each input file
+```
+// input
+grep -c "base pair" technical/biomed/*.txt | less
+
+//output
+technical/biomed/rr191.txt:0
+technical/biomed/rr196.txt:1
+technical/biomed/rr37.txt:0
+technical/biomed/rr73.txt:0
+technical/biomed/rr74.txt:0
+```
+```
+//input
+grep -c "base pair" technical/biomed/1471-2199-3-17.txt
+
+//output
+4
+```
+
+**grep -v**
+```
+//input
+
+
+//output
+
+```
+```
+//input
+
+
+//output
+
+```
+**grep -i**
+```
+//input
+
+
+//output
+
+```
+```
+//input
+
+
+//output
+
+```
