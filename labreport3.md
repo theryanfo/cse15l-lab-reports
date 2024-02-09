@@ -16,9 +16,9 @@ public class ArrayExamples {
 ```
 @Test
 public void testReverseInPlace2() {
-    int[] input1 = {0, 1};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{1, 0}, input1);
+    int[] input2 = {0, 1};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{1, 0}, input2);
 }
 ```
 ## Passing Input
