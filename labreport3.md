@@ -82,7 +82,7 @@ Source: https://man7.org/linux/man-pages/man1/grep.1.html
 //output
 
 ```
-**grep -c** print the number of matching lines for each input file
+**grep -c** prints the number of matching lines for each input file.
 ```
 // input
 grep -c "base pair" technical/biomed/*.txt | less
