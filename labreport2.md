@@ -17,9 +17,14 @@ class Handler implements URLHandler {
         
         else if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
-            String message = parameters[1].split("&")[0];
-            result += (parameters[2] + ": " + message + "\n");
-            return String.format(result);
+            String[] middle = parameters[1].split("&");
+            if(parameters.length != 3 || middle.length != 2){
+                return "404 Not Found!";
+            }
+            if(parameters[0].equals("s") && middle[1].equals("user")){
+                result += (parameters[2] + ": " + middle[0] + "\n");
+                return String.format(result);
+            }
         } 
             return "404 Not Found!";
     }
