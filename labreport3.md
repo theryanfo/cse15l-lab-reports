@@ -14,21 +14,21 @@ public class ArrayExamples {
 ```
 ## Failure-Inducing Input
 ```
-@Test 
-	public void testReverseInPlace2() {
+@Test
+public void testReverseInPlace2() {
     int[] input1 = {0, 1};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{1, 0}, input1);
-	}
+}
 ```
 ## Passing Input
 ```
 @Test 
-	public void testReverseInPlace1() {
+public void testReverseInPlace1() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+}
 ```
 ## The Symptom
 
