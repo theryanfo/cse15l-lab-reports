@@ -102,20 +102,31 @@ grep -c "base pair" technical/biomed/1471-2199-3-17.txt
 4
 ```
 
-**grep -v**
+**grep -v** inverts the matching to select only non-matching lines.
 ```
 //input
-
+find technical | grep -v ".txt"
 
 //output
-
+technical
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
 ```
 ```
 //input
-
+find technical/911report/ | grep -v "chapter"
 
 //output
-
+technical/911report/
+technical/911report/preface.txt
 ```
 **grep -i**
 ```
