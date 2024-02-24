@@ -4,7 +4,7 @@
 
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/6561cd21-c690-4da3-8ef8-eeefd414dcd7)
 
-Keys pressed: `ssh rfordham@ieng6.ucsd.edu`, `cs1, <tab>`
+Keys pressed: `ssh rfordham@ieng6.ucsd.edu`, `cs1 <tab>`
 
 ***
 
