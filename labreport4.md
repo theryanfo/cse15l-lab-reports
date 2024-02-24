@@ -42,6 +42,6 @@ Keys pressed: `bash test.sh` This ran the updated test script
 
 **Step 9**
 
+![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/c96e7d7e-8ba4-4089-8bba-7d4a53fa8c2d)
 
-
-Keys pressed: 
+Keys pressed: `git add ListExamples.java`, `git commit -m "Fixed ListExamples.java"`, `git push origin main`
