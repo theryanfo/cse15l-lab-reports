@@ -44,4 +44,4 @@ Keys pressed: `bash test.sh` This ran the updated test script
 
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/c96e7d7e-8ba4-4089-8bba-7d4a53fa8c2d)
 
-Keys pressed: `git add ListExamples.java` this added ListExamples.java to the files to be committed, `git commit -m "Fixed ListExamples.java"` this committed the changes along with a message, `git push origin main` this pushed the commits to the main branch on github
+Keys pressed: `git add ListExamples.java` this added ListExamples.java to the files to be committed, `git commit -m "Fixed ListExamples.java"` this committed the changes along with a message, `git push origin main` this pushed the commit to the main branch on github
