@@ -34,9 +34,9 @@ Keys pressed: `vim ListExamples.java`, `4 3 j e x i 2 <esc> : x <enter>` 43j mov
 
 **Step 8**
 
+![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/bd7b9792-93e8-4837-88e4-b2a251c69cad)
 
-
-Keys pressed: 
+Keys pressed: `bash test.sh` This ran the updated test script
 
 ***
 
