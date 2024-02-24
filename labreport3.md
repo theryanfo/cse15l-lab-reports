@@ -76,7 +76,7 @@ grep -r -o "base pair" | less
 technical/biomed/1471-2105-3-18.txt:base pair
 technical/biomed/1471-2105-3-18.txt:base pair
 technical/biomed/1471-2105-3-2.txt:base pair
-technical/biomed/1471-2105-3-2.txt:base pairq
+technical/biomed/1471-2105-3-2.txt:base pair
 ```
 ```
 //input
@@ -87,6 +87,8 @@ technical/plos/journal.pbio.0020190.txt:base pair
 technical/plos/journal.pbio.0020190.txt:base pair
 technical/plos/journal.pbio.0020223.txt:base pair
 ```
+grep -o could be useful for tasks in which you only want to extract certain parts of a line. For instance, in a shell script, you might use grep -o in conjuction with another command to extract any information that follows a pattern such as email addresses or URLs without the surrounding text.
+***
 **grep -c** prints the number of matching lines for each input file.
 ```
 // input
@@ -106,7 +108,8 @@ grep -c "base pair" technical/biomed/1471-2199-3-17.txt
 //output
 4
 ```
-
+grep -c could be useful for tasks that require identifying the number of times a certain pattern appears within a set of files. An example would be using grep -c to check for the number of times a specified error output occurs within each file in a directory.
+***
 **grep -v** inverts the matching to select only non-matching lines.
 ```
 //input
@@ -133,6 +136,8 @@ find technical/911report/ | grep -v "chapter"
 technical/911report/
 technical/911report/preface.txt
 ```
+grep -v could be useful for tasks that require filtering out certain lines that aren't relevant to the task. For instance, a shell script you are running might want to collect file information while excluding lines with warnings or certain phrases such as "Compile error."
+***
 **grep -i** makes grep ignore case distinctions in patterns.
 ```
 //input
@@ -157,3 +162,4 @@ technical/government/About_LSC/CONFIG_STANDARDS.txt:How
 technical/government/About_LSC/diversity_priorities.txt:How
 technical/government/About_LSC/diversity_priorities.txt:How
 ```
+grep -i could be useful for tasks that require identifying lines with certain patterns case-insensitively. For instance, you might want to identify lines that contain either "ERROR", "Error", or "error".
