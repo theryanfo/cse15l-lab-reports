@@ -18,17 +18,17 @@ Keys pressed: `git clone <ctrl-v> <enter>` <ctrl-v> pasted the ssh url from my g
 
 **Step 6**
 
+![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/7442426b-fc0f-497b-92fc-6adc4b6dc487)
 
-
-Keys pressed: 
+Keys pressed: `cd 15 <tab> <enter>` `bash te <tab> <enter>` I changed the working directory to my fork and then ran the test shell script.
 
 ***
 
 **Step 7**
 
+![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/01fdd33b-76cd-41c4-a276-41eeb2ebdfa0)
 
-
-Keys pressed: 
+Keys pressed: `vim ListExamples.java`, `4 3 j e x i 2 <esc> : x <enter>` 43j moved my cursor down 43 lines, e moved my cursor to the end of `index1`, x deleted 1, i 2 inserted 2, <esc> brought me back to normal mode, :x <enter> saved and quit vim.
 
 ***
 
