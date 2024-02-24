@@ -63,6 +63,7 @@ public class ArrayExamples {
 In the original version, the bug is caused when we assign `arr[i] = arr[arr.length - i - 1]` for any array size 2 or greater, because the second half of arr is assigned values from itself which have already been overwritten. In the fixed version, we fix this problem by creating a new empty array 'temp' to assign arr's values to in reverse order. Then, we reassign arr's values to temp's values.
 
 ***
+
 # Part 2
 ## The 'grep' Command
 Source: https://man7.org/linux/man-pages/man1/grep.1.html
@@ -88,6 +89,7 @@ technical/plos/journal.pbio.0020190.txt:base pair
 technical/plos/journal.pbio.0020223.txt:base pair
 ```
 grep -o could be useful for tasks in which you only want to extract certain parts of a line. For instance, in a shell script, you might use grep -o in conjuction with another command to extract any information that follows a pattern such as email addresses or URLs without the surrounding text.
+
 ***
 
 **grep -c** prints the number of matching lines for each input file.
@@ -110,6 +112,7 @@ grep -c "base pair" technical/biomed/1471-2199-3-17.txt
 4
 ```
 grep -c could be useful for tasks that require identifying the number of times a certain pattern appears within a set of files. An example would be using grep -c to check for the number of times a specified error output occurs within each file in a directory.
+
 ***
 
 **grep -v** inverts the matching to select only non-matching lines.
@@ -139,6 +142,7 @@ technical/911report/
 technical/911report/preface.txt
 ```
 grep -v could be useful for tasks that require filtering out certain lines that aren't relevant to the task. For instance, a shell script you are running might want to collect file information while excluding lines with warnings or certain phrases such as "Compile error."
+
 ***
 
 **grep -i** makes grep ignore case distinctions in patterns.
