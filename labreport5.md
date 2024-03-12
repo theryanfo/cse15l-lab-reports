@@ -4,6 +4,7 @@
 
 1. 
 ![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/01830763-6177-4cee-8421-372e44f09bc6)
+
 I'm not sure why this test isn't passing, here is my code. The first number of the array matched but JUnit says the second number was 1, so it's like my code isn't traversing the array or something.
 
 ```
@@ -30,7 +31,8 @@ public class ArrayExamples {
   - test.sh
 
 
-*Before*
+***Before***
+
 **ArrayExamples.java**
 ```
 public class ArrayExamples {
