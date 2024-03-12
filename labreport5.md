@@ -16,15 +16,17 @@ public class ArrayExamples {
     }
   }
 ```
-
 2.
-
+Why don't you try drawing out each step on a piece of paper to see where the program doesn't behave as expected?
 
 3.
+![image](https://github.com/theryanfo/cse15l-lab-reports/assets/156359755/f609cfc2-4390-4b37-b290-f2958a2a4acc)
 
+It seems like the array can't accurately copy the first half to the second half because it has already been overwritten, so I probably have to create a temporary array to fix this issue.
 
 4.
 **File and directory stucture**
+  
 - ArrayMethods/
   - ArrayExamples.java
   - ArrayTests.java
@@ -74,9 +76,11 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 ```
 
 **Bug-triggering command**
+
 `bash test.sh`
 
 **How the bug was fixed**
+
 Create a temporary copy of the original array to traverse, so that it is unaffected by new assignments to the returned array
 ```
 public class ArrayExamples {
@@ -96,3 +100,4 @@ public class ArrayExamples {
 
 # Part 2
 
+I learned about debugging using jdb. It's helpful for when I want to see the values of the variables in the middle of a program before certain commands execute in order to identify when problems occur.
